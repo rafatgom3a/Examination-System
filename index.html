@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Examination System</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playwrite+CO+Guides&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</head>
+<body>
+
+    <div class="startExamContainer">
+        <button class="startButton">Start Exam</button>
+    </div>
+
+    <div class="questionContainer">
+        <div class="timerBar">
+            <span>Time left : <p style="display: inline;"></p></span>
+        </div>
+
+        <h1>Question</h1>
+
+        <img src="images/eg.png" alt="flag">
+
+        <button class="answer">Answer1</button>
+        <button class="answer">Answer2</button>
+        <button class="answer">Answer3</button>
+
+        <button class="next">Next</button>
+    </div>
+
+    <div class="progressContainer">
+        <div class="progressCircle" style="--percentage: 0;"></div>
+        <div class="progressInnerCircle"></div>
+        <div class="progressText">0%</div>
+        <p class="scoreText"></p>
+    </div>
+
+</body>
+</html>
